@@ -1,0 +1,136 @@
+{
+  "plants_water_frequencies": [
+    {"key": "day", "title": "Every day"},
+    {"key": "week", "title": "Every week"}
+  ],
+
+  "plants_environments": [
+    {"key": "living_room", "title": "Living Room"},
+    {"key": "bedroom", "title": "Bedroom"},
+    {"key": "kitchen", "title": "Kitchen"},
+    {"key": "bathroom", "title": "Bathroom"}
+  ],
+
+  "plants": [
+    {
+      "id": 1,
+      "name": "Aningapara",
+      "about": "It is a tropical species that grows quickly and is easy to handle.",
+      "water_tips": "Always keep the soil moist without soaking. Water 2 times a week.",
+      "photo": "https://storage.googleapis.com/golden-wind/nextlevelweek/05-plantmanager/1.svg",
+      "environments": ["living_room", "kitchen"],
+      "frequency": {
+        "times": 2,
+        "repeat_every": "week"
+      }
+    },
+    {
+      "id": 2,
+      "name": "Zamioculca",
+      "about": "Despite blooming in spring, it is beautiful and green all year round. ",
+      "water_tips": "Use pots with holes and stones in the bottom to facilitate drainage. Water once a day.",
+      "photo": "https://storage.googleapis.com/golden-wind/nextlevelweek/05-plantmanager/2.svg",
+      "environments": ["living_room", "bedroom"],
+      "frequency": {
+        "times": 1,
+        "repeat_every": "day"
+      }
+    },
+    {
+      "id": 3,
+      "name": "Peperomia",
+      "about": "It adapts both to the sun and shade, but prefers to stay in a cool corner, without direct sun.",
+      "water_tips": "On warmer days, sprinkle water on the leaves. Water 3 times a week.",
+      "photo": "https://storage.googleapis.com/golden-wind/nextlevelweek/05-plantmanager/3.svg",
+      "environments": ["bedroom"],
+      "frequency": {
+        "times": 3,
+        "repeat_every": "week"
+      }
+    },
+    {
+      "id": 4,
+      "name": "Imbe",
+      "about": "Medium sized that adapts to different regions, in addition to being very easy to cultivate. It conquers more and more people.",
+      "water_tips": "Always keep the soil moist without soaking. Water 2 times a week.",
+      "photo": "https://storage.googleapis.com/golden-wind/nextlevelweek/05-plantmanager/4.svg",
+      "environments": ["bedroom", "living_room"],
+      "frequency": {
+        "times": 2,
+        "repeat_every": "week"
+      }
+    },
+    {
+      "id": 5,
+      "name": "Sansevieria",
+      "about": "The aroma reduces anxiety levels and its smell helps in quality of sleep and productivity during the day.",
+      "water_tips": "Water the soil around. Water once a day.",
+      "photo": "https://storage.googleapis.com/golden-wind/nextlevelweek/05-plantmanager/5.svg",
+      "environments": ["bedroom", "living_room"],
+      "frequency": {
+        "times": 1,
+        "repeat_every": "day"
+      }
+    },
+    {
+      "id": 6,
+      "name": "Yucca",
+      "about": "They are indicated because they are easy to maintain and care for. You put it in small pots, or even in cups.",
+      "water_tips": "Thanks to the water reserve of these greenbacks, it is always better to water a little. Water once a week.",
+      "photo": "https://storage.googleapis.com/golden-wind/nextlevelweek/05-plantmanager/6.svg",
+      "environments": ["kitchen", "bedroom"],
+      "frequency": {
+        "times": 1,
+        "repeat_every": "week"
+      }
+    },
+    {
+      "id": 7,
+      "name": "Fruit",
+      "about": "They require a few hours of sunshine a day, so keep them close to windows.",
+      "water_tips": "Always water the soil and not the leaves. Water 3 times a week",
+      "photo": "https://storage.googleapis.com/golden-wind/nextlevelweek/05-plantmanager/7.svg",
+      "environments": ["kitchen", "living_room"],
+      "frequency": {
+        "times": 3,
+        "repeat_every": "week"
+      }
+    },
+    {
+      "id": 8,
+      "name": "Orchid",
+      "about": "It brings a feeling of tranquility and peace to the environment. Requires little maintenance and great for those with little space.",
+      "water_tips": "Water moderately. Require 4 times a week.",
+      "photo": "https://storage.googleapis.com/golden-wind/nextlevelweek/05-plantmanager/8.svg",
+      "environments": ["bathroom"],
+      "frequency": {
+        "times": 4,
+        "repeat_every": "week"
+      }
+    },
+    {
+      "id": 9,
+      "name": "Violet",
+      "about": "With delicate flowers. They are great suggestions for decorating the bathroom.",
+      "water_tips": "No watering the flowers and leaves. Water the soil 2 times a week.",
+      "photo": "https://storage.googleapis.com/golden-wind/nextlevelweek/05-plantmanager/3.svg",
+      "environments": ["bathroom"],
+      "frequency": {
+        "times": 2,
+        "repeat_every": "week"
+      }
+    },
+    {
+      "id": 10,
+      "name": "Hydrangea",
+      "about": "Hydrangea is a rustic plant and adapts to different types of soils.",
+      "water_tips": "Always keep the soil moist without soaking. Water once a day.",
+      "photo": "https://storage.googleapis.com/golden-wind/nextlevelweek/05-plantmanager/2.svg",
+      "environments": ["bathroom"],
+      "frequency": {
+        "times": 1,
+        "repeat_every": "day"
+      }
+    }
+  ]
+}
