@@ -5,6 +5,10 @@ export async function removeNotification(id: string) {
     Notifications.cancelScheduledNotificationAsync(id);
 }
 
+export async function removeAllNotifications() {
+    Notifications.cancelAllScheduledNotificationsAsync();
+}
+
 export async function createNotification(plant: IPlant) {
     const nextTime = new Date(plant.dateTimeNotification);
     const now = new Date();

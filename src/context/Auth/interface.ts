@@ -4,5 +4,7 @@ export interface IUser{
 
 export interface IAuthContext{
     user: IUser;
+    profilePic: string;
     signUser: (user: IUser) => void;
+    updatePhoto: () => void;
 }

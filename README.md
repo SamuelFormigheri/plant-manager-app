@@ -35,8 +35,9 @@ This project was developed with the following technologies:
 
 - [React Native](https://reactnative.dev/)
 - [Expo](https://expo.io/)
+- [Typescript](https://www.typescriptlang.org/)
 
-## Usage
+## 💻 Usage
 
  ### Mobile App
   
@@ -48,6 +49,6 @@ This project was developed with the following technologies:
     
 
 
-## Participants
+## 👥 Participants
 
 [Samuel Formigheri](https://github.com/SamuelFormigheri)

@@ -1,18 +1,25 @@
 import React from 'react';
 import { Text, View, Image } from 'react-native';
 import { styles } from './styles';
-import ProfilePic from '../../assets/profilepic.jpg';
+import User from '../../assets/user.png';
 import { useAuth } from '../../context/Auth/context';
+import { RectButton } from 'react-native-gesture-handler';
+import { useNavigation } from '@react-navigation/core';
 
 const Header: React.FC = () => {
-  const {user} = useAuth();
+  const { user, updatePhoto, profilePic } = useAuth();
+  const navigation = useNavigation();
   return (
     <View style={styles.container}>
       <View>
         <Text style={styles.greetings}>Hello,</Text>
-        <Text style={styles.userName}>{user.name}</Text>
+        <RectButton onPress={() => navigation.navigate('UserEntry')}>
+          <Text style={styles.userName}>{user.name}</Text>
+        </RectButton>
       </View>
-      <Image source={ProfilePic} style={styles.profilePic}/>
+      <RectButton onPress={updatePhoto}>
+        <Image source={profilePic ? { uri: profilePic } : User} style={styles.profilePic}/>
+      </RectButton>
     </View>
   );
 }
